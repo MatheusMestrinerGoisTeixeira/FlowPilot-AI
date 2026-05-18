@@ -1,8 +1,8 @@
-# FlowPilot AI
+# FollowFlow AI
 
 Sistema operacional autônomo de follow-up comercial com IA.
 
-O FlowPilot AI monitora conversas, identifica leads esquecidos, gera follow-ups automáticos e executa ações reais para aumentar conversão, reduzir perda de oportunidades e automatizar operações comerciais.
+O FollowFlow AI monitora conversas, identifica leads esquecidos, gera follow-ups automáticos e executa ações reais para aumentar conversão, reduzir perda de oportunidades e automatizar operações comerciais.
 
 ---
 
@@ -10,7 +10,7 @@ O FlowPilot AI monitora conversas, identifica leads esquecidos, gera follow-ups 
 
 Empresas perdem receita diariamente por falha humana em acompanhamento.
 
-O FlowPilot AI resolve esse problema utilizando IA, automações e processamento de eventos em tempo real.
+O FollowFlow AI resolve esse problema utilizando IA, automações e processamento de eventos em tempo real.
 
 A plataforma integra:
 
@@ -255,3 +255,27 @@ Criar uma plataforma de operações comerciais autônomas capaz de executar foll
 # Licença
 
 MIT
+
+---
+
+# Estado Atual da Implementação
+
+Este repositório agora possui um foundation funcional para evoluir o MVP do FollowFlow AI de forma incremental:
+
+* Monorepo `pnpm` com apps e packages separados.
+* Aplicação web Next.js App Router com landing page, login demo, dashboard, pipeline e admin.
+* Domínio CRM isolado com cálculo de score de urgência e validação de leads.
+* Contratos de IA, integrações Gmail/WhatsApp, filas, workers e observabilidade.
+* Migração Supabase com schema multi-tenant, índices e Row Level Security.
+* Docker Compose para Redis local.
+* GitHub Actions para lint, typecheck, testes e build.
+
+## Execução incremental recomendada
+
+1. Rodar `pnpm install` em ambiente com acesso ao registry npm.
+2. Configurar `.env.local` a partir de `.env.example`.
+3. Subir Redis com `docker compose -f infra/docker/docker-compose.yml up -d`.
+4. Aplicar migrations Supabase.
+5. Rodar `pnpm dev`.
+
+A implementação mantém dados demo no frontend para acelerar revisão visual, mas os contratos de domínio e a migration já estão preparados para substituição por repositórios Supabase no próximo incremento.
