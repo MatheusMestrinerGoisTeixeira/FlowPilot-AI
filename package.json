@@ -2,7 +2,7 @@
   "name": "followflow-ai",
   "version": "0.1.0",
   "private": true,
-  "description": "FollowFlow AI autonomous commercial follow-up SaaS.",
+  "description": "FollowFlow AI commercial follow-up workspace.",
   "scripts": {
     "dev": "pnpm --filter @followflow/web dev",
     "build": "pnpm -r build",

@@ -3,7 +3,7 @@ import type { DashboardMetric, Interaction, Lead } from "@followflow/types";
 export const dashboardMetrics: DashboardMetric[] = [
   { label: "Follow-ups executados", value: "1.284", trend: "+18% em 7 dias" },
   { label: "Leads resgatados", value: "342", trend: "+41 oportunidades" },
-  { label: "Receita em risco", value: "R$ 248k", trend: "monitorada pela IA" },
+  { label: "Receita em risco", value: "R$ 248k", trend: "sob acompanhamento" },
   { label: "Tempo médio resposta", value: "7 min", trend: "SLA operacional" },
 ];
 

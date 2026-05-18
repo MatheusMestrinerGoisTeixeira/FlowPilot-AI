@@ -1,4 +1,3 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   transpilePackages: ["@followflow/auth", "@followflow/crm", "@followflow/types", "@followflow/ui"],
 };

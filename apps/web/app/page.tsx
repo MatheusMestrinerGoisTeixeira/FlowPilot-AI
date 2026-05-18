@@ -17,7 +17,7 @@ export default function HomePage() {
       </nav>
       <section className="mx-auto grid max-w-6xl gap-10 py-24 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
         <div>
-          <p className="mb-5 inline-flex rounded-full border border-white/20 px-4 py-2 text-sm text-slate-200">IA que executa follow-ups reais, não apenas recomenda.</p>
+          <p className="mb-5 inline-flex rounded-full border border-white/20 px-4 py-2 text-sm text-slate-200">Follow-ups no tempo certo, com contexto e consistência.</p>
           <h1 className="text-5xl font-semibold leading-tight tracking-tight md:text-7xl">Pare de perder receita por leads esquecidos.</h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
             O FollowFlow AI monitora Gmail, WhatsApp e pipeline comercial para detectar oportunidades em risco, resumir contexto e executar o próximo contato no momento certo.

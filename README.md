@@ -260,10 +260,10 @@ MIT
 
 # Estado Atual da Implementação
 
-Este repositório agora possui um foundation funcional para evoluir o MVP do FollowFlow AI de forma incremental:
+Este repositório agora possui uma base inicial para evoluir o MVP do FollowFlow AI de forma incremental:
 
 * Monorepo `pnpm` com apps e packages separados.
-* Aplicação web Next.js App Router com landing page, login demo, dashboard, pipeline e admin.
+* Aplicação web Next.js App Router com landing page, login local, dashboard, pipeline e admin.
 * Domínio CRM isolado com cálculo de score de urgência e validação de leads.
 * Contratos de IA, integrações Gmail/WhatsApp, filas, workers e observabilidade.
 * Migração Supabase com schema multi-tenant, índices e Row Level Security.
@@ -278,4 +278,4 @@ Este repositório agora possui um foundation funcional para evoluir o MVP do Fol
 4. Aplicar migrations Supabase.
 5. Rodar `pnpm dev`.
 
-A implementação mantém dados demo no frontend para acelerar revisão visual, mas os contratos de domínio e a migration já estão preparados para substituição por repositórios Supabase no próximo incremento.
+A implementação mantém dados de exemplo no frontend para acelerar a revisão visual. Os contratos de domínio e a migration já estão preparados para serem conectados aos repositórios Supabase no próximo incremento.

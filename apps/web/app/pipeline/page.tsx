@@ -1,5 +1,5 @@
 import { AppShell } from "../../components/app-shell";
-import { leads } from "../../lib/mock-data";
+import { leads } from "../../lib/sample-data";
 
 const stages = ["new", "contacted", "qualified", "proposal", "won"] as const;
 

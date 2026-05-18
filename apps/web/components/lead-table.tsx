@@ -32,7 +32,7 @@ export function LeadTable({ leads }: Readonly<{ leads: Lead[] }>) {
               <td className="px-5 py-4">
                 <span className="rounded-full bg-rose-400/10 px-3 py-1 text-rose-200">{lead.urgencyScore}/100</span>
               </td>
-              <td className="px-5 py-4 text-slate-300">{lead.nextFollowUpAt ? "Follow-up automático agendado" : "IA avaliando janela ideal"}</td>
+              <td className="px-5 py-4 text-slate-300">{lead.nextFollowUpAt ? "Follow-up automático agendado" : "Janela ideal em análise"}</td>
             </tr>
           ))}
         </tbody>

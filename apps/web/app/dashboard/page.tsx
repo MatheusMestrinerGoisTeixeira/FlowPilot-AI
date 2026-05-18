@@ -1,7 +1,7 @@
 import { AppShell } from "../../components/app-shell";
 import { LeadTable } from "../../components/lead-table";
 import { MetricCard } from "../../components/metric-card";
-import { dashboardMetrics, interactions, leads } from "../../lib/mock-data";
+import { dashboardMetrics, interactions, leads } from "../../lib/sample-data";
 
 export default function DashboardPage() {
   return (
