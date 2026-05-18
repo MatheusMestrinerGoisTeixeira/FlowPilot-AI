@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES2022"
+    ],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "exactOptionalPropertyTypes": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "paths": {
+      "@followflow/ai": [
+        "packages/ai/src/index.ts"
+      ],
+      "@followflow/auth": [
+        "packages/auth/src/index.ts"
+      ],
+      "@followflow/crm": [
+        "packages/crm/src/index.ts"
+      ],
+      "@followflow/integrations": [
+        "packages/integrations/src/index.ts"
+      ],
+      "@followflow/observability": [
+        "packages/observability/src/index.ts"
+      ],
+      "@followflow/queues": [
+        "packages/queues/src/index.ts"
+      ],
+      "@followflow/types": [
+        "packages/types/src/index.ts"
+      ],
+      "@followflow/ui": [
+        "packages/ui/src/index.ts"
+      ]
+    },
+    "ignoreDeprecations": "6.0"
+  }
+}
